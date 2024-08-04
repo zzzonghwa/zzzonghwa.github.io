@@ -25,12 +25,12 @@ description: >- # used by seo meta and the atom feed
 url: "https://zzzonghwa.github.io"
 
 github:
-  username: jonghwahong # change to your github username
+  username: zzzonghwa # change to your github username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: 홍종화
+  name: zzzonghwa
   email: zzzonghwa@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -41,7 +41,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: KOeOjfyPD2Z-TW0y4u4cNJOhrMokNzt_hCxoCHFf7ms # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -54,7 +54,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-SJDXYLBJ5X # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -88,10 +88,10 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn:
+# cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -99,6 +99,10 @@ social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 comments:
   # Global switch for the post comment system. Keeping it empty means disabled.
