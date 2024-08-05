@@ -1,7 +1,6 @@
 ---
-
-title: [SAP] Eclipse 설치
-date: 2024-08-08 14:10:00 +0800
+title: Eclipse 및 ADT 설치
+date: 2024-08-05 14:10:00 +0800
 categories: [Install, SAP]
 tags: [Eclipse]
 render_with_liquid: false
